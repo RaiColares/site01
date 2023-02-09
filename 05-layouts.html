@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HMTL - Layouts</title>
+	<style>
+
+		* {
+			  box-sizing: border-box;
+			}
+
+		body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+		header {
+			  background-color: #666;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+		nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #ccc;
+			  padding: 20px;
+			}
+
+		nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+		article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #f1f1f1;
+			}
+
+		section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+		footer {
+			  background-color: #777;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+
+		@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+
+
+
+	</style>
+
+</head>
+<body>
+
+	<header>
+		<h2>Curso Front-end - HTML</h2>
+	</header>
+
+	<section>
+		
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="./06-formularios.html">Contato</a></li>
+			</ul>
+		</nav>
+
+		<article>
+
+			<h1>Título Artigo</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis facilisis lectus, et convallis ligula fermentum ac. Pellentesque ornare, nisi sit amet egestas elementum, dolor diam bibendum ante, eget iaculis nulla tellus sit amet nibh. Aliquam ornare id arcu eu facilisis. Ut et ex pharetra tellus sodales blandit at vitae sapien. Quisque in mi et odio fringilla vehicula vel vel diam. Nam ultrices lorem sit amet eleifend pharetra. Fusce sollicitudin augue odio, ut cursus urna volutpat tincidunt.</p>
+
+			<p>Praesent posuere sapien eu sagittis efficitur. Donec eu maximus justo, non lacinia metus. Pellentesque maximus mi neque, at auctor odio cursus a. In finibus semper enim, eget dignissim est rhoncus et. Duis sed arcu facilisis, pharetra mauris ac, sagittis justo. Integer risus turpis, pretium ac 		malesuada sit amet, posuere vitae diam. Donec finibus consectetur purus sed commodo. Nunc id porta ligula, nec placerat elit. Vivamus sit amet quam justo. Nam ac tellus in felis viverra feugiat at ut mauris. Suspendisse rhoncus ac magna a pharetra. Nulla in dignissim arcu, sit amet sodales dui.
+			</p>
+
+		</article>
+
+		
+	</section>
+
+
+	<footer>
+			<p>Desenvolvido por J<sub>R</sub></p>
+	</footer>
+
+</body>
+</html>

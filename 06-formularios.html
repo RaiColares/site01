@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HMTL - Formulário fale conosco</title>
+	<link rel="stylesheet" type="text/css" href="./css/06-formularios.css">
+
+</head>
+<body>
+
+	<header>
+		<h2 id="cabecalho">FORMULÁRIO</h2>
+	</header>
+
+	<section>
+		
+		<nav>
+			<ul class="navegacao">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="06-formularios.html">Fale conoscoo</a></li>
+				<li><a href="07-exerciciotabela.html">Tabela</a></li>
+			</ul>
+		</nav>
+
+		<article>
+
+			<h1>Contato</h1>
+			<p>Preencha os campos abaixo</p>
+
+			<form method="post">
+				
+				<div>
+					<label for="nome">Nome</label><br>
+					<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+				</div>
+
+				<div>
+					<label for="email">E-mail</label><br>
+					<input type="text" name="email" id="email" placeholder="exemplo@com.br">
+				</div>
+
+				<div>
+					<label for="mensagem">Mensagens</label><br>
+					<textarea name="mensagem" id="mensagem" rows="10" cols="30"></textarea>
+				</div>
+
+				<div>
+					<p>
+						<label>Quais linguagens prefere?</label>
+						<input type="radio" name="linguagens" value="html"> HTML
+						<input type="radio" name="linguagens" value="css"> CSS
+						<input type="radio" name="linguagens" value="javascript"> JavaScript
+				</p>
+				</div>
+
+				<div>
+					<p>
+						<label>Quais linguagens você sabe?</label>
+						<input type="checkbox" name="linguagens" value="html"> HTML
+						<input type="checkbox" name="linguagens" value="css"> CSS
+						<input type="checkbox" name="linguagens" value="javascript"> JavaScript
+				</p>
+				</div>
+
+				<div>
+					<label>Qual a sua cor favorita?</label>
+					<select>
+						<option value="azul">Azul</option>
+						<option value="verde">Verde</option>
+						<option value="vermelho" selected>Vermelho</option>
+					</select>
+				</div>
+
+				<div>
+					<input type="submit" name="">
+				</div>
+
+			</form>
+			
+		</article>
+
+		
+	</section>
+
+
+	<footer>
+			<p style="color: #fff;">Desenvolvido por J<sub>R</sub></p>
+	</footer>
+
+</body>
+</html>

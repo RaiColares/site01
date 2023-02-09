@@ -1,0 +1,193 @@
+
+
+
+* {
+	  box-sizing: border-box;
+	}
+
+html{
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+	font-size: 100%; /*equivale a 10px*/
+}
+
+body{
+	background-color: white;
+}
+
+h1, h2, h3, p, li{
+	  font-family: Arial, Helvetica, sans-serif;
+	  color: #66f;
+	}
+
+header {
+	  background-color: #fff;
+	  padding: 30px;
+	  text-align: center;
+	  font-size: 35px;
+	  }
+
+
+
+
+nav {
+	  float: left;
+	  width: 30%;
+	   
+	  background: #fff;
+	  padding: 20px;
+	}
+
+.navegacao{
+	width: 300px;
+	float: left;
+	margin: 0 0 20px 20px;
+}
+
+nav ul {
+	  list-style-type: none;
+	  padding: 0;
+}
+
+.navegacao ul a{
+	color: #66f;
+	display: block;
+	margin-bottom: .4rem;
+	width: 100%;
+	text-decoration: none;
+	border-bottom: 1px solid #66f;
+	padding: 1rem 1rem 1rem 1rem;
+
+}
+
+a{
+	color: #66f;
+	display: block;
+	margin-bottom: .4rem;
+	width: 100%;
+	text-decoration: none;
+	padding-top:-10px;
+
+}
+
+
+/*.navegacao li{
+	border-bottom: 1px solid #66f;
+	padding: 1rem 1rem 1rem 1rem;
+
+}
+*/	
+
+
+
+.navegacao ul a:hover{
+	color: #66f;
+	padding-left: 20px;
+	background: #fff url(../verifica2.png) no-repeat left center;
+	
+	
+}
+
+
+
+
+#primeiro.link > a{
+	color: #933;
+}
+
+
+
+
+ul{
+	background-color: #fff;
+	
+}
+
+
+article {
+	  float: left;
+	  padding: 20px;
+	  width: 70%;
+	  
+	  
+	}
+
+section::after {
+	  background: #ccc url(verifica.jpg);
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+footer {
+	  background-color: #66f;
+	  padding: 10px;
+	  text-align: center;
+	  color: #fff;
+	}
+
+	div{
+		background-color: #fff;
+		border: 0;
+		border-bottom: 1px solid #33f;
+		padding: 2rem;
+		margin: 1rem;
+	}
+
+	form{
+		background: #eee;
+		padding: 10px;
+	}
+
+	select{
+		color: #66f;
+	}
+
+	label{
+		margin-bottom: 1rem;
+		font-size: 1,4rem;
+		font-family: sans-serif;
+		font-weight: bold;
+		color: #66f;
+	}
+
+	input{
+		padding: 1rem;
+
+	}
+
+	[type="text"], [type="email"], textarea, label{
+		display: block;
+		width: 100%;
+	}
+
+	
+
+
+
+@media (max-width: 600px) {
+	  nav, article {
+	    width: 100%;
+	    height: auto;
+	  }
+	}
+
+#homepage{
+		background-color: #fff;
+		border: 0;	
+		padding: 2rem;
+		margin: 1rem;
+	}
+	/*
+	li {
+		background-image: url(https://arquivo.devmedia.com.br/naoexclusivo/JoelRodrigues/Documentacao/css-background/bg1.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-blend-mode: luminosity;
+		height: 100px;
+	}
+
+	*/
+
+	
